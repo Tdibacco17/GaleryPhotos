@@ -1,0 +1,16 @@
+.container-pagination {
+    display: flex;
+    gap: 1rem;
+
+    .btn {
+        width: 4rem;
+        height: 2.5rem;
+        max-height: 2.5rem;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

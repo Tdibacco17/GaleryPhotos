@@ -1,0 +1,35 @@
+.container-home-page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+
+    @media (max-width:1200px) {
+        padding: 4rem 2rem;
+    }
+
+    .wrapper-column {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 4rem;
+        width: 100%;
+
+        .header {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .title {
+                width: 100%;
+                text-align: center;
+            }
+
+            .subtitle {
+                font-weight: 700;
+                font-size: 16px;
+            }
+        }
+    }
+}
